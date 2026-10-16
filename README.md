@@ -1,1 +1,65 @@
-# erdrone.hithub.io
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="description" content="ER DRONE | Filmagens aéreas e produção de vídeos para marcas, empresas, imóveis e eventos.">
+<title>ER DRONE | Imagens que valorizam cada detalhe</title>
+<style>
+:root{--bg:#090909;--panel:#111;--text:#f5f5f2;--muted:#a6a6a2;--line:#292929;--accent:#c7ff43}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:78px}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff16;position:absolute;top:0;left:0;right:0;z-index:5}.brand{font-weight:900;letter-spacing:.08em;font-size:1.2rem}.brand span{color:var(--accent)}.navlinks{display:flex;gap:28px;color:#d2d2cf;font-size:.88rem}.navlinks a:hover{color:var(--accent)}.menu{display:none;background:none;border:1px solid #555;color:white;border-radius:8px;padding:8px 11px}
+.hero{min-height:720px;display:flex;align-items:center;position:relative;isolation:isolate;overflow:hidden;background:#101010}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,5,5,.94) 0%,rgba(5,5,5,.75) 42%,rgba(5,5,5,.2) 100%),linear-gradient(0deg,#090909 0%,transparent 35%),url('assets/drone-evento.jpeg') center 48%/cover;z-index:-2;transform:scale(1.02)}.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 78% 38%,transparent,rgba(0,0,0,.22) 55%);z-index:-1}.hero-copy{padding:130px 0 100px;max-width:730px}.eyebrow{font-size:.76rem;text-transform:uppercase;letter-spacing:.22em;color:var(--accent);font-weight:800}.hero h1{font-size:clamp(3.4rem,9vw,7.7rem);line-height:.88;letter-spacing:-.075em;margin:24px 0 25px;font-weight:900}.hero h1 span{color:var(--accent)}.hero p{font-size:clamp(1rem,2vw,1.2rem);line-height:1.65;color:#d1d1ce;max-width:540px;margin:0 0 32px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 20px;border-radius:5px;font-weight:800;font-size:.9rem;transition:transform .2s,background .2s;border:1px solid transparent}.btn:hover{transform:translateY(-2px)}.primary{background:var(--accent);color:#101010}.secondary{border-color:#777;background:#1118;color:#fff}.section{padding:100px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:36px}.kicker{font-size:.75rem;letter-spacing:.2em;color:var(--accent);font-weight:800;text-transform:uppercase}.section h2{font-size:clamp(2.2rem,5vw,4rem);letter-spacing:-.055em;line-height:1;margin:13px 0 0}.section-intro{color:var(--muted);max-width:390px;line-height:1.65;margin:0}.about-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:64px;align-items:center}.portrait{height:560px;width:100%;object-fit:cover;object-position:center 32%;border-radius:6px;filter:saturate(.88)}.about-copy p{font-size:1.06rem;line-height:1.85;color:#c4c4c0}.about-copy strong{color:#fff}.tagline{border-left:2px solid var(--accent);padding-left:18px;margin-top:28px;color:#eee;font-size:1.1rem}.portfolio-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:18px}.work-card{position:relative;overflow:hidden;border-radius:6px;background:#171717;min-height:260px}.work-card img{width:100%;height:100%;min-height:260px;object-fit:cover;transition:transform .65s}.work-card:hover img{transform:scale(1.035)}.work-card.featured img{min-height:470px}.work-card:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.82))}.work-label{position:absolute;z-index:1;left:24px;bottom:22px}.work-label small{color:var(--accent);text-transform:uppercase;letter-spacing:.15em;font-size:.68rem;font-weight:800}.work-label h3{font-size:1.4rem;margin:8px 0 0}.work-stack{display:grid;gap:18px}.note{color:#8d8d88;font-size:.85rem;margin-top:18px}.services{background:#101010}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:38px}.service{background:#101010;padding:28px;min-height:185px}.num{color:var(--accent);font-size:.75rem;font-weight:800;letter-spacing:.1em}.service h3{font-size:1.12rem;margin:22px 0 10px}.service p{color:var(--muted);line-height:1.6;font-size:.92rem;margin:0}.service-note{color:#c8c8c3;line-height:1.7;margin-top:24px;max-width:780px}.contact{padding:100px 0 76px}.contact-panel{padding:clamp(28px,6vw,72px);background:var(--accent);color:#0b0b0b;border-radius:8px;display:flex;align-items:center;justify-content:space-between;gap:35px;position:relative;overflow:hidden}.contact-panel:after{content:"ER";font-size:clamp(10rem,28vw,24rem);font-weight:950;letter-spacing:-.1em;position:absolute;right:10px;bottom:-.42em;color:#0000000b;pointer-events:none}.contact-panel h2{font-size:clamp(2.5rem,6vw,5rem);letter-spacing:-.07em;line-height:.95;margin:12px 0 20px;max-width:650px}.contact-panel p{max-width:420px;line-height:1.6;color:#2c351b}.contact-actions{display:flex;flex-direction:column;gap:10px;min-width:210px;z-index:1}.contact-actions .btn{background:#0b0b0b;color:white}.contact-actions .outline{border:1px solid #313a20;background:transparent;color:#0b0b0b}.contact-details{display:flex;gap:28px;flex-wrap:wrap;margin-top:28px;color:#c5c5c0;font-size:.92rem}.contact-details a:hover{color:var(--accent)}footer{border-top:1px solid var(--line);padding:24px 0 32px;color:#777;font-size:.8rem;display:flex;justify-content:space-between;gap:16px}.reveal{animation:rise .8s both}@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}@media(max-width:760px){.wrap{width:min(100% - 32px,600px)}.nav{height:66px}.menu{display:block}.navlinks{display:none;position:absolute;top:65px;left:0;right:0;padding:20px;background:#0b0b0b;flex-direction:column;gap:18px;border-bottom:1px solid var(--line)}.navlinks.open{display:flex}.hero{min-height:690px}.hero:before{background:linear-gradient(90deg,rgba(5,5,5,.86),rgba(5,5,5,.5)),linear-gradient(0deg,#090909 0%,transparent 45%),url('assets/drone-evento.jpeg') 58% center/cover}.hero-copy{padding:120px 0 90px}.section{padding:72px 0}.section-head{display:block}.section-intro{margin-top:20px}.about-grid{grid-template-columns:1fr;gap:28px}.portrait{height:440px;object-position:center 30%}.portfolio-grid{grid-template-columns:1fr}.work-card.featured img{min-height:340px}.work-stack{grid-template-columns:1fr 1fr}.work-stack .work-card img{min-height:190px}.work-stack .work-label{left:14px;bottom:14px}.work-stack .work-label h3{font-size:1rem}.service-grid{grid-template-columns:1fr}.service{min-height:auto;padding:24px}.service h3{margin:14px 0 8px}.contact-panel{display:block}.contact-actions{margin-top:26px}.contact-details{display:grid;gap:12px}footer{flex-direction:column}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="nav wrap">
+  <a class="brand" href="#inicio" aria-label="ER Drone início">ER <span>DRONE</span></a>
+  <button class="menu" aria-label="Abrir menu" aria-expanded="false" id="menuBtn">Menu ☰</button>
+  <nav class="navlinks" id="navlinks"><a href="#sobre">Sobre</a><a href="#portfolio">Portfólio</a><a href="#servicos">Serviços</a><a href="#contato">Contato</a></nav>
+</header>
+<main>
+<section class="hero" id="inicio"><div class="wrap"><div class="hero-copy reveal">
+<div class="eyebrow">Produção audiovisual · Sumaré / SP</div>
+<h1>ER <span>DRONE</span></h1>
+<p>Imagens que valorizam cada detalhe. Filmagens aéreas e produção de vídeos para marcas, empresas, imóveis e eventos.</p>
+<div class="actions"><a class="btn primary" href="#portfolio">Ver portfólio <span>↘</span></a><a class="btn secondary" href="https://wa.me/5519999667988" target="_blank" rel="noopener">Solicitar orçamento ↗</a></div>
+</div></div></section>
+<section class="section" id="sobre"><div class="wrap about-grid">
+<div><img class="portrait" src="assets/erick-estudio.png" alt="Erick, criador da ER Drone" loading="lazy"></div>
+<div class="about-copy"><div class="kicker">Por trás das imagens</div><h2>Olhar criativo.<br>Imagem com intenção.</h2>
+<p>Sou Erick, videomaker à frente da <strong>ER DRONE</strong>. Produzo imagens aéreas com drone e takes terrestres mobile, criando vídeos que valorizam negócios, espaços, produtos e momentos especiais.</p>
+<p>Cada projeto pode combinar diferentes formas de captação, de acordo com a ideia e o objetivo de quem contrata.</p>
+<div class="tagline">Do alto ou de perto, cada detalhe conta.</div></div>
+</div></section>
+<section class="section" id="portfolio"><div class="wrap">
+<div class="section-head"><div><div class="kicker">Trabalhos selecionados</div><h2>Portfólio visual</h2></div><p class="section-intro">Uma amostra real da captação aérea. Novos projetos podem ser adicionados à galeria conforme o portfólio cresce.</p></div>
+<div class="portfolio-grid">
+<article class="work-card featured"><img src="c:\Users\erick\Downloads\ER_Drone_Portfolio\ER_Drone_Portfolio\assets\dji_fly_20260802_102654_416_1785677912327_photo_optimized.jpg" alt="Vista aérea de espaço ao ar livre preparado para cerimônia" loading="lazy"><div class="work-label"><small>Drone · Vista aérea</small><h3>Eventos e confratenizações</h3></div></article>
+<div class="work-stack">
+<article class="work-card"><img src="c:\Users\erick\Downloads\dji_fly_20260516_153946_284_1778958770748_photo_optimized.jpg" alt="Detalhe aéreo do gramado e organização do espaço" loading="lazy" style="object-position:25% 50%"><div class="work-label"><small>Captação aérea</small><h3>Empresas e comércios</h3></div></article>
+<article class="work-card"><img src="c:\Users\erick\Downloads\Praia-02.jpg" alt="Vista aérea de caminhos, cadeiras e paisagismo" loading="lazy" style="object-position:75% 55%"><div class="work-label"><small>Detalhes</small><h3>Imóveis e Terrenos</h3></div></article>
+</div>
+</div><p class="note"></p>
+</div></section>
+<section class="section services" id="servicos"><div class="wrap"><div class="kicker">Como posso ajudar</div><h2>Serviços</h2>
+<div class="service-grid">
+<article class="service"><span class="num">01 / AÉREO</span><h3>Filmagens com drone</h3><p>Planos aéreos para apresentar espaços, áreas externas e ambientes.</p></article>
+<article class="service"><span class="num">02 / NEGÓCIOS</span><h3>Vídeos institucionais e comerciais</h3><p>Conteúdo audiovisual para apresentar empresas, marcas e serviços.</p></article>
+<article class="service"><span class="num">03 / TERRESTRE</span><h3>Captação com celular</h3><p>Takes criativos e imagens próximas para contar a história do projeto.</p></article>
+<article class="service"><span class="num">04 / SOCIAL</span><h3>Conteúdo para redes sociais</h3><p>Vídeos pensados para comunicar com clareza e prender a atenção.</p></article>
+<article class="service"><span class="num">05 / ESPAÇOS</span><h3>Imóveis, fachadas e comércios</h3><p>Imagens que ajudam a valorizar a apresentação de cada espaço.</p></article>
+<article class="service"><span class="num">06 / MOMENTOS</span><h3>Eventos especiais</h3><p>Registros aéreos ou terrestres para guardar e compartilhar momentos.</p></article>
+</div><p class="service-note">A captação pode ser feita com drone, câmera de celular ou combinando os dois, conforme a necessidade de cada projeto.</p>
+</div></section>
+<section class="contact" id="contato"><div class="wrap"><div class="contact-panel"><div><div class="kicker" style="color:#273414"></div><h2>Vamos tirar sua ideia do papel?</h2><p>Conte um pouco sobre seu projeto e vamos pensar nas imagens certas para ele.</p></div><div class="contact-actions"><a class="btn" href="https://wa.me/5519999667988" target="_blank" rel="noopener">Conversar no WhatsApp ↗</a><a class="btn outline" href="https://www.instagram.com/er__drone?obrf=MXV6NXByYXZ1M3Bkcg%3D%3D&utm_source=qr" target="_blank" rel="noopener">Ver Instagram ↗</a></div></div>
+<div class="contact-details"><a href="https://www.instagram.com/er__drone?obrf=MXV6NXByYXZ1M3Bkcg%3D%3D&utm_source=qr" target="_blank" rel="noopener">Instagram · @er_drone</a><a href="https://wa.me/5519999667988" target="_blank" rel="noopener">WhatsApp · (19) 99996-67988</a><span>ER DRONE · Sumaré, SP</span></div></div></section>
+</main>
+<footer class="wrap"><span>© <span id="year"></span> ER DRONE</span><span>Imagens que valorizam cada detalhe.</span></footer>
+<script>
+const btn=document.getElementById('menuBtn'),nav=document.getElementById('navlinks');
+btn.addEventListener('click',()=>{const open=nav.classList.toggle('open');btn.setAttribute('aria-expanded',String(open));});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');btn.setAttribute('aria-expanded','false')}));
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body></html>
